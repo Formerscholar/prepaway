@@ -1,0 +1,449 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.orgore {
+    color: #fda00a !important;
+}
+
+.bortop {
+    border-top: 1px solid #f19b0f;
+}
+
+.warp {
+    width: 80%;
+    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nopadding {
+    padding-left: 0 !important;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* header start */
+header {
+    width: 100%;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.h-worp {
+    height: 115px;
+    padding: 15px 9px;
+    overflow: hidden;
+}
+
+.h-worp .w-logo {
+    display: inline-block;
+    padding: 27px 0 18px;
+    margin-right: 54px;
+}
+
+.h-worp .w-search {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.h-worp .w-search input {
+    height: 55px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #dfe2e5;
+    font-size: 18px;
+    color: #c0c9cf;
+}
+
+.h-worp .w-search input:hover {
+    border: 1px solid #46b846;
+}
+
+.h-worp .w-search button {
+    float: right;
+    height: 55px;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #46b846;
+    border: 1px solid #46b846;
+    color: #fff;
+    outline: none;
+}
+
+.h-worp .w-nav {
+    line-height: 85px;
+}
+
+.h-worp .w-nav a {
+    display: inline-block;
+    height: 100%;
+    color: #354c5e;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.h-worp .w-nav .iconfont {
+    font-size: 24px;
+    color: #fda00a;
+}
+
+/* nav start  */
+.n-top,
+.n-down {
+    width: 100%;
+    height: 60px;
+}
+
+.n-down {
+    background-color: #3eb53e;
+}
+
+.n-t-warp,
+.n-d-warp {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.n-t-warp a {
+    float: left;
+    display: block;
+}
+
+.n-t-warp li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 45px;
+}
+
+.n-t-warp li a {
+    color: #354c7d;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.n-t-warp li a .iconfont {
+    font-size: 26px;
+}
+
+.n-down .n-d-warp li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 13px;
+    color: #fff;
+}
+
+.n-down .n-d-warp li a {
+    color: #fff;
+    border-bottom: 1px dotted #5ed05e;
+}
+
+/* advert start */
+.advert .warp {
+    height: 254px;
+    text-align: center;
+    padding: 50px 10px 23px 10px;
+}
+
+.advert .warp h1 {
+    font-size: 50px;
+    color: #354c5e;
+}
+
+.advert .warp h5 {
+    height: 75px;
+    font-size: 22px;
+    color: #516e84;
+    font-weight: 400;
+}
+
+/* banner start  */
+.banner {
+    position: relative;
+    height: 423px;
+    border-bottom: 1px solid #f0f1f5;
+}
+
+.banner .banner-top a {
+    border-bottom: 1px solid #dfe2e5;
+    font-size: 24px;
+    color: #1a70c5;
+}
+
+.banner .banner-top a:hover {
+    color: #fda00a;
+    border-bottom: 1px solid #fda00a;
+}
+
+.banner a .iconfont {
+    font-size: 24px;
+}
+
+.banner-bott .b-b-ul li {
+    width: 20%;
+    float: left;
+    display: block;
+    margin: 30px 0px 0px 0px;
+}
+
+.banner-bott .b-b-ol li {
+    float: left;
+    margin: 0px 10px;
+}
+
+.banner-bott li a {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+.banner-bott li img {
+    display: block;
+    width: 100%;
+    height: 140px;
+}
+
+.banner-bott li span {
+    display: block;
+    width: 100%;
+    color: #1a70c5;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.b-b-ol li::before {
+    content: "";
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border: 1px solid #ccdff3;
+    background-color: #ddeaf7;
+}
+
+.b-b-ol li:first-child::before {
+    background-color: #fda00a;
+}
+
+.banner-bott .iconfont {
+    font-size: 50px;
+    border-radius: 50%;
+}
+
+.banner-bott .lf {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+
+.banner-bott .ri {
+    position: absolute;
+    top: 25%;
+    right: 7%;
+}
+
+.banner-bott .b-b-ul {
+    width: 100%;
+    height: 215px;
+    overflow: hidden;
+}
+
+.banner-bott .b-b-ul ul {
+    width: 100%;
+}
+
+.banner-bott .b-b-ol {
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+}
+
+/* container start */
+.container {
+    border-bottom: 1px solid #f0f3fa;
+}
+
+.container .box-lf {
+    padding-right: 120px;
+    padding-bottom: 30px;
+}
+
+.container .box-lf h1 {
+    padding: 25px 0 23px 25px;
+}
+
+.container .box-lf table thead tr .one,
+.container .box-lf table tbody tr td {
+    text-align: left;
+    height: 57px;
+    padding: 25px 10px 12px 31px;
+    font-size: 19px;
+}
+
+.container .box-lf table thead tr .two {
+    text-align: left;
+    padding: 25px 10px 12px 30px;
+    font-size: 19px;
+}
+
+.container .box-ri h1 {
+    padding: 25px;
+}
+
+.container .box-ri li {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.container .box-ri a img {
+    width: 100%;
+}
+
+.container .box-ri a h6 {
+    padding: 25px 0 7px 0;
+    font-size: 18px;
+}
+
+.container .box-ri a .price {
+    width: 80px;
+    height: 30px;
+    line-height: 20px;
+    background-color: #fda81c;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 1.5em;
+}
+
+.container .box-ri a .information .iconfont {
+    font-size: 24px;
+}
+
+.container .box-ri a .information span {
+    color: #31526b;
+    padding: 0 15px 0 0;
+}
+
+.container .box-ri .account {
+    color: #354c5e;
+    font-size: 12px;
+}
+
+.container .box-ri .account a {
+    display: inline-block;
+    width: 133px;
+    height: 60px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 4px;
+}
+
+.container .box-ri .account .or {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    color: #354ca2;
+}
+
+.container .box-ri .account a .iconfont {
+    font-size: 24px;
+}
+
+.container .box-ri .account .btn-sign {
+    background-color: #fca51a;
+    color: #fff;
+}
+
+.container .box-ri .account .btn-log {
+    background-color: #fff;
+    color: #46b86f;
+    border: 1px solid #daf1da;
+}
+
+.container .box-ri .account .Site {
+    padding: 7px 0 13px;
+    font-size: 18px;
+    color: #354c7e;
+}
+
+.container .box-ri .account form {
+    position: relative;
+}
+
+.container .box-ri .account input {
+    width: 100%;
+    height: 56px;
+    padding: 10px 110px 10px 20px;
+    border-radius: 4px !important;
+    outline: none;
+    border: 1px solid #dfe2e5;
+    font-size: 18px;
+}
+
+.container .box-ri .account button {
+    color: #dfe2e5;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.container .box-ri .account button .iconfont {
+    font-size: 28px;
+}
+
+/* footer start */
+.footer .warp {
+    height: 160px;
+}
+
+.footer .warp .leftbox {
+    width: 460px;
+    line-height: 160px;
+    text-align: center;
+}
